@@ -35,16 +35,6 @@
 			path = Petalux;
 			sourceTree = "<group>";
 		};
-		35BC5F462F971642005EF8DB /* PetaluxTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = PetaluxTests;
-			sourceTree = "<group>";
-		};
-		35BC5F502F971642005EF8DB /* PetaluxUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = PetaluxUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				35BC5F362F971641005EF8DB /* Petalux */,
-				35BC5F462F971642005EF8DB /* PetaluxTests */,
-				35BC5F502F971642005EF8DB /* PetaluxUITests */,
 				35BC5F352F971641005EF8DB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,9 +118,6 @@
 			dependencies = (
 				35BC5F452F971642005EF8DB /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				35BC5F462F971642005EF8DB /* PetaluxTests */,
-			);
 			name = PetaluxTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +137,6 @@
 			);
 			dependencies = (
 				35BC5F4F2F971642005EF8DB /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				35BC5F502F971642005EF8DB /* PetaluxUITests */,
 			);
 			name = PetaluxUITests;
 			packageProductDependencies = (
